@@ -28,9 +28,22 @@ const postSchema = new mongoose.Schema({
     is_deleted: {
         type: Boolean
     }, 
-    comments: {
-        
-    }
+    comments: [
+        {
+            answer : {
+                type : String
+            },
+            userId : {
+                type : String
+            },
+            userName : {
+                type : String
+            },
+            userAvatar : {
+                type : String
+            }
+        }
+    ]
 }, {
         timestamps: true
 })
