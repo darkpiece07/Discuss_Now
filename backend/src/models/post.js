@@ -19,18 +19,23 @@ const postSchema = new mongoose.Schema({
     downvote: {
         type: Number
     },
-    view_count: {
-        type: Number
-    }, 
     user_id: {
         type: String
     },
-    is_deleted: {
-        type: Boolean
-    }, 
-    comments: {
-        
-    }
+    comments: [{
+        answer : {
+            type : String
+        },
+        userId : {
+            type : String
+        },
+        userName : {
+            type : String
+        },
+        userAvatar : {
+            type : String
+        }
+    }]
 }, {
         timestamps: true
 })
