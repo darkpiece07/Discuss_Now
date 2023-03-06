@@ -1,0 +1,35 @@
+.fm{
+    background-color: #89F9F9;
+    border-radius: 15px;
+    width: 50vw;
+    height: 70vh;
+    margin-top: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* padding-left: 10%; */
+    /* display: block; */
+}
+.fm-title{
+    font-weight: 600;
+    font-size: larger;
+}
+.fm_inside{
+    background-color: #CEFAFA;
+}
+.margin{
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+.suggestions{
+background-color: #bee7e7;
+border-radius: 10px;
+border-color: blue;
+border-width: 20px;
+/* box-sizing: border-box; */
+display: flex;
+padding: 10px;
+}
+.category{
+    width: 300px;
+}
